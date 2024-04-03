@@ -29,10 +29,6 @@ class BookLover:
 
     def fav_books(self):
         return self.book_list[self.book_list['book_rating'] > 3]
-    
-if __name__ == '__main__':
-    
-    test_object = BookLover("Pratham Choksi", "pc@gmail.com", "scifi")
-    test_object.add_book("Star Wars", 4)
+
 
 

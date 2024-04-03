@@ -8,5 +8,8 @@ setup(
     author='Pratham Choksi',
     author_email='prathch2@gmail.com',
     license='MIT',
-    packages=['Package']
+    packages=['Package'],
+    install_requires=[
+        "pandas",
+    ]
 )
